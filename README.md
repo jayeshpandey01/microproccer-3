@@ -10,7 +10,7 @@ To run an assembly program like the one provided in Ubuntu, you'll need to assem
 
 3. **Assemble the code**: Open a terminal, navigate to the directory where your assembly code is saved, and assemble it using NASM:
    ```
-   nasm -f elf32 -o multiply.o multiply.asm
+   nasm -f elf32 -o multiply.o multiply.nasm
    ```
 
 4. **Link the object file**: Link the object file produced by NASM using a linker (in this case, the GNU linker, `ld`):
